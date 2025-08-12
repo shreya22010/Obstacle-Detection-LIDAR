@@ -1,0 +1,16 @@
+import math
+
+def find_obstacles(points):
+    """
+    Returns points within 10 meters from origin (0,0,0).
+    """
+    obstacles = []
+    for x, y, z in points:
+        if math.sqrt(x**2 + y**2) < 10:
+            obstacles.append((x, y, z))
+    return obstacles
+
+# Sample test
+if __name__ == "__main__":
+    test_data = [(1, 1, 0), (10, 0, 0), (5, 6, 0)]
+    print(find_obstacles(test_data))
