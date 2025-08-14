@@ -1,30 +1,30 @@
-Obstacle Detection Using LIDAR Data
+Obstacle Detection Using LIDAR Data Obstacle Detection Using LIDAR Data
 
-This project was developed as part of the MIT Bangalore Hackathon 2025 in the Robotics category.  
-The main goal was to process LIDAR data and detect obstacles in a simulated environment with high accuracy.
+This project was developed for the MIT Bangalore hackathon.
+The aim was to process LIDAR sensor data to detect obstacles in the environment and determine their positions.
 
-Overview  
-The system processes LIDAR sensor input, cleans and preprocesses the data, and then identifies obstacles in the path.  
-It is designed to assist in autonomous navigation by providing real-time detection of obstacle positions.
+My Contribution
 
-Technologies Used  
-- Python  
-- NumPy  
-- Matplotlib  
-- LIDAR datasets  
+I worked on identifying and implementing Python functions to handle the data processing and detection steps. This included:
 
-Repository Structure  
-- scripts folder contains the Python scripts for data preprocessing, detection, and visualisation.  
-- Obstacle_Detection_Report.docx contains the complete documentation and results.  
-- README.md contains the summary of the project.  
+Reading and parsing LIDAR data
 
-Project Report  
-The complete documentation is available in the file Obstacle_Detection_Report.docx in this repository.
+Filtering and cleaning the data for accuracy
 
-My Role  
-I was responsible for collecting and cleaning the LIDAR datasets, developing parts of the obstacle detection logic,  
-and contributing to the preparation of the project report.
+Detecting the presence of obstacles based on distance thresholds
 
-Hackathon Context  
-This work was part of the MIT Bangalore Hackathon 2025 under the Robotics category.
+Outputting the detected obstacle positions
+
+I created multiple working versions of the code so we could test slightly different approaches and compare results. This helped ensure the system could reliably detect obstacles under different conditions.
+
+Tools and Libraries Used
+
+Python
+
+NumPy – for numerical computations and data handling
+
+Matplotlib – for plotting and visualizing LIDAR readings
+
+Math functions – for coordinate and distance calculations
+
 
